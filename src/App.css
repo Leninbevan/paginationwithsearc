@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: auto;
+  width: 11%;
+}
+
+.pagination-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination-btn:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
